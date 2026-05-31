@@ -12,7 +12,7 @@
     const openBtn  = document.querySelector('.header-menu-btn');
     const closeBtn = document.getElementById('mobileCloseBtn');
     const overlay  = document.getElementById('mobileOverlay');
-    const navLinks = drawer.querySelectorAll('.mobile-nav-links a, .mobile-cta-area a');
+    const navLinks = drawer.querySelectorAll('.mobile-cta-area a');
 
     function openDrawer() {
       drawer.classList.add('open');
