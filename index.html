@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>エコリング 鹿児島店 OPEN!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+
+<!-- ================================================================
+     HEADER
+================================================================ -->
+<header id="header">
+  <!-- Row 1: ロゴ + CTAボタン -->
+  <div class="header-main">
+    <div class="header-main-inner">
+      <div class="header-logo">
+        <a href="#">
+          <img src="assets/img/common/logo.webp" alt="EcoRing エコリング">
+        </a>
+      </div>
+      <div class="header-cta-btns">
+        <a href="tel:0120611511" class="header-cta-btn header-cta-btn--tel">
+          <img src="assets/img/icons/tel.png" alt="" class="header-cta-icon">
+          <span>電話で相談</span>
+        </a>
+        <a href="#" class="header-cta-btn header-cta-btn--line">
+          <img src="assets/img/icons/line.png" alt="" class="header-cta-icon">
+          <span>LINE査定</span>
+        </a>
+        <a href="#store" class="header-cta-btn header-cta-btn--reserve">
+          <span class="header-cta-btn-sub">＼無料／</span>
+          <span class="header-cta-btn-main">
+            <img src="assets/img/icons/reserve.png" alt="" class="header-cta-icon">
+            来店予約
+          </span>
+        </a>
+      </div>
+      <button class="header-menu-btn" aria-label="メニュー">
+        <span></span>
+        <span></span>
+        <p class="btn-txt">MENU</p>
+      </button>
+    </div>
+  </div>
+  <!-- Row 2: バナー -->
+  <div class="header-banner">
+    <p>鹿児島店 新規オープン記念！期間限定キャンペーン実施中</p>
+  </div>
+</header>
+
+<!-- ================================================================
+     MOBILE DRAWER MENU
+================================================================ -->
+<div class="mobile-drawer" id="mobileDrawer" aria-hidden="true">
+  <div class="mobile-overlay" id="mobileOverlay"></div>
+  <div class="mobile-panel">
+    <div class="mobile-panel-head">
+      <img src="assets/img/common/logo.png" alt="EcoRing エコリング">
+      <button class="mobile-close-btn" id="mobileCloseBtn" aria-label="閉じる">&times;</button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="#about">エコリングとは</a></li>
+      <li><a href="#buy-items">買取強化ブランド・カテゴリ</a></li>
+      <li><a href="#">買取実績</a></li>
+      <li><a href="#buy-items">買取できるもの</a></li>
+      <li><a href="#flow">買取の流れ</a></li>
+      <li><a href="#store">店舗情報</a></li>
+      <li><a href="#qa">よくある質問</a></li>
+      <li><a href="https://www.eco-ring.com/trip/">出張買取</a></li>
+      <li><a href="https://www.eco-ring.com/online/">宅配買取</a></li>
+    </ul>
+    <div class="mobile-cta-area">
+      <a href="#store" class="mobile-cta-reserve">🏪 来店予約・無料査定はこちら</a>
+      <a href="#" class="mobile-cta-line">💬 LINEで無料査定</a>
+      <a href="tel:0120611511" class="mobile-cta-tel">📞 0120-611-511</a>
+    </div>
+  </div>
+</div>
+
+<!-- ================================================================
+     HERO SECTION（topImage + ボタン + カテゴリを一体化）
+================================================================ -->
+<div class="hero-section">
+  <div class="hero-banner">
+    <img src="assets/img/hero/main.png" alt="エコリング鹿児島店 グランドオープン！オープン記念キャンペーン 買取金額20%UP！">
+  </div>
+  <div class="hero-cta">
+    <div class="hero-cta-inner">
+      <a href="#store" class="hero-cta-btn btn-reserve">
+        <div class="btn-icon"><img src="assets/img/icons/reserve.png" alt=""></div>
+        <div class="btn-texts">
+          <span class="btn-main">まずは無料査定！来店予約はこちら</span>
+          <span class="btn-sub">予約なしでも歓迎！査定・キャンセル料無料</span>
+        </div>
+      </a>
+      <a href="tel:0120611511" class="hero-cta-btn btn-tel">
+        <div class="btn-icon"><img src="assets/img/icons/tel.png" alt=""></div>
+        <div class="btn-texts">
+          <span class="btn-tel-num"><span class="btn-tel-label">電話</span> 0120-611-511</span>
+          <span class="btn-tel-hours">受付時間 11:00〜18:00（火曜定休）</span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <div class="hero-categories">
+    <img src="assets/img/hero/categories.jpg" alt="こんなものもご相談いただけます：ブランドバッグ・時計・ジュエリー・金プラチナ・洋服衣類・靴バッグ・家電・スマホタブレット・おもちゃホビー・食器雑貨">
+  </div>
+</div>
+
+<!-- ================================================================
+     ABOUT
+================================================================ -->
+<section class="about" id="about">
+  <div class="about-inner">
+
+    <!-- Row1: タイトル(左) + 店内写真(右) -->
+    <div class="about-row1">
+      <img src="assets/img/about/title.jpg" alt="エコリングってどんなお店？「捨てるしかない」を「お金に変わる」に。リユースで社会を変える買取専門店です。" class="about-title-img">
+      <img src="assets/img/about/photo.jpg" alt="エコリング店内の様子" class="about-photo-img">
+    </div>
+
+    <!-- Row2: 本文テキスト(左) + 植物装飾(右) -->
+    <div class="about-row2">
+      <div class="about-text">
+        <p>エコリングは2001年に兵庫県で創業し、現在は<strong>全国330店舗以上</strong>を展開する買取専門店です。</p>
+        <p>年間利用者数は<span class="about-em">約118万人を超え</span>、多くのお客様に選ばれ続けています。<span class="about-em">業界トップクラスの実績</span>があります。</p>
+        <p>ブランド品や貴金属だけでなく、<strong>日用品・不用品まで幅広く買い取る</strong>のが最大の特徴。</p>
+        <p>国内外に独自の販売ルートを持つからこそ、他店では値段がつかないお品物にも価値を見出せます。</p>
+        <p>環境や社会に配慮した企業として運営する国際認証<strong>「B Corp」を日本で7番目に取得</strong>。お客様の不用品を「ごみ」にせず、次に必要とする人へつなぐ、それがエコリングの使命です。</p>
+      </div>
+      <img src="assets/img/about/deco.jpg" alt="" class="about-deco-img" aria-hidden="true">
+    </div>
+
+    <!-- Row3: 4つの実績カード -->
+    <div class="about-cards">
+      <div class="about-card">
+        <img src="assets/img/about/card-shops.jpg" alt="全国展開中 約330店舗">
+      </div>
+      <div class="about-card">
+        <img src="assets/img/about/card-users.jpg" alt="年間利用者数 約118万人">
+      </div>
+      <div class="about-card">
+        <img src="assets/img/about/card-years.jpg" alt="信頼と実績の 創業23年">
+      </div>
+      <div class="about-card">
+        <img src="assets/img/about/card-bcorp.jpg" alt="B Corp 国際認証取得（日本7番目）">
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================================================================
+     BUY ITEMS — flyer.png（チラシ）
+================================================================ -->
+<div class="flyer-section" id="buy-items">
+  <div class="flyer-section-inner">
+    <!-- タイトル画像 -->
+    <img src="assets/img/flyer/title.jpg" alt="エコリングはこんなものも買い取ります" class="flyer-title-img">
+    <!-- 枠 + チラシ -->
+    <div class="flyer-frame-wrap">
+      <div class="flyer-frame-inner">
+        <img src="assets/img/flyer/flyer.png" alt="ブランドからノーブランドまでなんでも買取ります。貴金属・ブランドバッグ・時計など高価買取中">
+      </div>
+    </div>
+    <!-- 拡大ボタン -->
+    <div class="flyer-btn-wrap">
+      <button class="flyer-expand-btn" id="flyerOpenBtn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        チラシを拡大する
+        <span class="flyer-expand-arrow">›</span>
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- ライトボックス -->
+<div class="lightbox" id="flyerLightbox">
+  <button class="lightbox-close" id="flyerClose">&times;</button>
+  <img src="assets/img/flyer/flyer.png" alt="ブランドからノーブランドまでなんでも買取ります">
+</div>
+
+<!-- ================================================================
+     3つのメリット
+================================================================ -->
+<section class="merits">
+  <div class="merits-inner">
+
+    <div class="merits-title">
+      <img src="assets/img/merits/title.jpg" alt="エコリングを選ぶ 3つのメリット">
+    </div>
+
+    <div class="merits-lead">
+      <p>「どこの買取店も同じ」と思っていませんか？</p>
+      <p>エコリングには、他店にはない理由があります。</p>
+    </div>
+
+    <div class="merits-grid">
+
+      <!-- POINT 01 -->
+      <div class="merit-col">
+        <div class="merit-box">
+          <img src="assets/img/merits/point1-title.jpg" alt="POINT01 他店で断られた品物も「なんでも」買取OK!" class="merit-point-title">
+          <img src="assets/img/merits/point1-illust.jpg" alt="" class="merit-illust">
+          <p class="merit-text">キズがあるバッグ、動かない時計、ノーブランドの洋服、使いかけのコスメまで。国内・海外・自社オークションと独自の販売ルートを持つエコリングだからこそ、あらゆるものに適正価格をつけられます。</p>
+          <p class="merit-text merit-text--em">「捨てる前に、まずはエコリングへ」が正解です。</p>
+        </div>
+      </div>
+
+      <!-- POINT 02 -->
+      <div class="merit-col">
+        <div class="merit-box">
+          <img src="assets/img/merits/point2-title.jpg" alt="POINT02 現金でお返しする制度 ありがとう還元" class="merit-point-title">
+          <img src="assets/img/merits/point2-illust.jpg" alt="" class="merit-illust">
+          <p class="merit-text">お客様から買い取ったお品物が、私たちの想定以上に高く売れた場合、その利益の一部をお客様に「現金」で直接還元しています。よくあるキャッシュバックキャンペーンとは違い、お一人おひとりに個別にお返しするエコリングだけの特別な制度です。</p>
+        </div>
+      </div>
+
+      <!-- POINT 03 -->
+      <div class="merit-col">
+        <div class="merit-box">
+          <img src="assets/img/merits/point3-title.jpg" alt="POINT03 お売りいただいたモノのCO₂抑制量が見える" class="merit-point-title">
+          <img src="assets/img/merits/point3-illust.jpg" alt="" class="merit-illust">
+          <p class="merit-text">エコリングでは、お客様がお売りいただいたお品物がどれだけCO₂排出を抑制したかを「エコパラメーター」で可視化しています。リユースに貢献した実感を、数字で確認できます。</p>
+          <p class="merit-text merit-text--em">「売る」が「地球を守る」につながる、それがエコリングです。</p>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="merits-diagram-wrap">
+      <img src="assets/img/merits/point2-diagram.png" alt="ありがとう還元の仕組み：お品物を買取→想定以上に高く売れた→利益の一部をお客様に還元→年に1回、現金でお返しします！" class="merit-diagram">
+    </div>
+
+  </div>
+</section>
+
+<!-- ================================================================
+     TARGET（こんな方におすすめ） — HTML
+================================================================ -->
+<section class="target">
+  <div class="section-inner">
+    <div class="target-img-wrap">
+      <img src="assets/img/target/compare.jpg" alt="エコリングはここが違う" class="target-img">
+    </div>
+    <div class="target-img-wrap">
+      <img src="assets/img/target/users.jpg" alt="年間利用者数" class="target-img">
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     買取実績 — performance list
+================================================================ -->
+<section class="performance">
+  <div class="section-inner">
+    <div class="performance-lead">
+      <img src="assets/img/performance/title.jpg" alt="驚きの買取実績！こんな金額で買い取っています" class="performance-title-img">
+      <p class="sub">「こんな状態でも売れるの？」<br>エコリングなら、お値段がつきます。</p>
+    </div>
+
+    <div class="perf-slider-wrap" id="perfSlider">
+      <button class="perf-arrow perf-prev" aria-label="前へ">&#8249;</button>
+      <div class="perf-slider-viewport">
+        <div class="perf-slider-track">
+          <div class="perf-card">
+            <div class="perf-card-img-wrap">
+              <img src="assets/img/performance/item-sample.png" alt="ルイ・ヴィトン モノグラム">
+              <span class="perf-badge">持ち手ちぎれ</span>
+            </div>
+            <div class="perf-card-body">
+              <p class="perf-name">ルイ・ヴィトン<br>モノグラム</p>
+              <p class="perf-condition"><span>状態：</span>持ち手ちぎれ・ボロボロ</p>
+              <p class="perf-price-label">買取価格：</p>
+              <p class="perf-price">370,000<span class="yen">円</span></p>
+            </div>
+          </div>
+          <div class="perf-card">
+            <div class="perf-card-img-wrap">
+              <img src="assets/img/performance/item-sample.png" alt="ルイ・ヴィトン モノグラム">
+              <span class="perf-badge">持ち手ちぎれ</span>
+            </div>
+            <div class="perf-card-body">
+              <p class="perf-name">ルイ・ヴィトン<br>モノグラム</p>
+              <p class="perf-condition"><span>状態：</span>持ち手ちぎれ・ボロボロ</p>
+              <p class="perf-price-label">買取価格：</p>
+              <p class="perf-price">35,000<span class="yen">円</span></p>
+            </div>
+          </div>
+          <div class="perf-card">
+            <div class="perf-card-img-wrap">
+              <img src="assets/img/performance/item-sample.png" alt="ロレックス デイトジャスト">
+              <span class="perf-badge">ガラス割れ</span>
+            </div>
+            <div class="perf-card-body">
+              <p class="perf-name">ロレックス<br>デイトジャスト</p>
+              <p class="perf-condition"><span>状態：</span>ガラス割れ・不動</p>
+              <p class="perf-price-label">買取価格：</p>
+              <p class="perf-price">250,000<span class="yen">円</span></p>
+            </div>
+          </div>
+          <div class="perf-card">
+            <div class="perf-card-img-wrap">
+              <img src="assets/img/performance/item-sample.png" alt="ルイ・ヴィトン モノグラム">
+              <span class="perf-badge">持ち手ちぎれ</span>
+            </div>
+            <div class="perf-card-body">
+              <p class="perf-name">ルイ・ヴィトン<br>モノグラム</p>
+              <p class="perf-condition"><span>状態：</span>持ち手ちぎれ・ボロボロ</p>
+              <p class="perf-price-label">買取価格：</p>
+              <p class="perf-price">370,000<span class="yen">円</span></p>
+            </div>
+          </div>
+          <div class="perf-card">
+            <div class="perf-card-img-wrap">
+              <img src="assets/img/performance/item-sample.png" alt="ルイ・ヴィトン モノグラム">
+              <span class="perf-badge">持ち手ちぎれ</span>
+            </div>
+            <div class="perf-card-body">
+              <p class="perf-name">ルイ・ヴィトン<br>モノグラム</p>
+              <p class="perf-condition"><span>状態：</span>持ち手ちぎれ・ボロボロ</p>
+              <p class="perf-price-label">買取価格：</p>
+              <p class="perf-price">370,000<span class="yen">円</span></p>
+            </div>
+          </div>
+          <div class="perf-card">
+            <div class="perf-card-img-wrap">
+              <img src="assets/img/performance/item-sample.png" alt="ルイ・ヴィトン モノグラム">
+              <span class="perf-badge">持ち手ちぎれ</span>
+            </div>
+            <div class="perf-card-body">
+              <p class="perf-name">ルイ・ヴィトン<br>モノグラム</p>
+              <p class="perf-condition"><span>状態：</span>持ち手ちぎれ・ボロボロ</p>
+              <p class="perf-price-label">買取価格：</p>
+              <p class="perf-price">35,000<span class="yen">円</span></p>
+            </div>
+          </div>
+          <div class="perf-card">
+            <div class="perf-card-img-wrap">
+              <img src="assets/img/performance/item-sample.png" alt="ロレックス デイトジャスト">
+              <span class="perf-badge">ガラス割れ</span>
+            </div>
+            <div class="perf-card-body">
+              <p class="perf-name">ロレックス<br>デイトジャスト</p>
+              <p class="perf-condition"><span>状態：</span>ガラス割れ・不動</p>
+              <p class="perf-price-label">買取価格：</p>
+              <p class="perf-price">250,000<span class="yen">円</span></p>
+            </div>
+          </div>
+          <div class="perf-card">
+            <div class="perf-card-img-wrap">
+              <img src="assets/img/performance/item-sample.png" alt="ルイ・ヴィトン モノグラム">
+              <span class="perf-badge">持ち手ちぎれ</span>
+            </div>
+            <div class="perf-card-body">
+              <p class="perf-name">ルイ・ヴィトン<br>モノグラム</p>
+              <p class="perf-condition"><span>状態：</span>持ち手ちぎれ・ボロボロ</p>
+              <p class="perf-price-label">買取価格：</p>
+              <p class="perf-price">370,000<span class="yen">円</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="perf-arrow perf-next" aria-label="次へ">&#8250;</button>
+      <div class="perf-dots" id="perfDots"></div>
+    </div>
+
+    <div class="performance-banner">
+      <img src="assets/img/performance/banner.jpg" alt="ボロボロ・キズあり・箱なし・使いかけでも買取できる場合があります！まずはご相談を！" class="performance-banner-img">
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     買取の流れ — index16-19
+================================================================ -->
+<section class="flow-section" id="flow">
+  <div class="flow-inner">
+    <div class="flow-title">
+      <img src="assets/img/flow/title.jpg" alt="カンタン3ステップ 買取の流れ">
+    </div>
+    <p class="flow-lead">「これ売れるかな？」<br>そんなお品物もお気軽にご相談ください。<br>エコリングなら、査定からお支払いまで簡単です。</p>
+    <div class="flow-steps">
+      <img src="assets/img/flow/step1.jpg" alt="STEP01 ご来店・受付" class="flow-step-img">
+      <img src="assets/img/flow/step2.jpg" alt="STEP02 プロによる査定" class="flow-step-img">
+      <img src="assets/img/flow/step3.jpg" alt="STEP03 現金でお支払い" class="flow-step-img">
+    </div>
+  </div>
+</section>
+<div class="hero-cta flow-cta">
+  <div class="hero-cta-inner single">
+    <a href="#store" class="hero-cta-btn btn-reserve">
+      <div class="btn-icon"><img src="assets/img/icons/reserve.png" alt=""></div>
+      <div class="btn-texts">
+        <span class="btn-main">まずは無料査定！来店予約はこちら</span>
+        <span class="btn-sub">予約なしでも歓迎！査定・キャンセル料無料</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<!-- ================================================================
+     店舗情報 — shop.png + 店舗情報カード
+================================================================ -->
+<section class="store" id="store">
+  <div class="section-inner">
+    <div class="store-title-block">
+      <h2 class="store-heading"><span class="store-heading-green">エコリング</span> 鹿児島店</h2>
+    </div>
+
+    <div class="store-title-img">
+      <img src="assets/img/store/banner.jpg" alt="エコリング鹿児島店">
+    </div>
+
+    <div class="store-grid">
+      <!-- 左：店舗外観写真 -->
+      <div class="store-photo">
+        <img src="assets/img/store/photo.png" alt="エコリング鹿児島店 外観">
+      </div>
+
+      <!-- 右：店舗情報カード -->
+      <div class="store-info-card">
+        <div class="store-detail">
+          <img src="assets/img/icons/store-address.jpg" alt="" class="store-detail-icon">
+          <span class="detail-label">住所</span>
+          <span class="detail-val">〒890-XXXX<br>鹿児島県鹿児島市〇〇町X-XX</span>
+        </div>
+        <div class="store-detail">
+          <img src="assets/img/icons/store-access.jpg" alt="" class="store-detail-icon">
+          <span class="detail-label">アクセス</span>
+          <span class="detail-val">○○駅より徒歩X分</span>
+        </div>
+        <div class="store-detail">
+          <img src="assets/img/icons/store-hours.jpg" alt="" class="store-detail-icon">
+          <span class="detail-label">営業時間</span>
+          <span class="detail-val">10:00〜18:00（定休日：水曜日）</span>
+        </div>
+        <div class="store-detail">
+          <img src="assets/img/icons/store-parking.jpg" alt="" class="store-detail-icon">
+          <span class="detail-label">駐車場</span>
+          <span class="detail-val">あり（○台）</span>
+        </div>
+        <div class="store-detail">
+          <img src="assets/img/icons/store-phone.jpg" alt="" class="store-detail-icon">
+          <span class="detail-label">電話番号</span>
+          <span class="detail-val">0120-611-511</span>
+        </div>
+      </div>
+
+      <!-- 下段：Google マップ -->
+      <div class="store-map">
+        <iframe
+          src="https://maps.google.com/maps?q=宇宿駅,鹿児島市,鹿児島県&output=embed&hl=ja&z=16"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          title="JR宇宿駅 地図"
+        ></iframe>
+      </div>
+    </div><!-- /.store-grid -->
+  </div>
+</section>
+
+<!-- ================================================================
+     よくあるご質問 — HTML
+================================================================ -->
+<section class="qa" id="qa">
+  <div class="section-inner">
+    <div class="qa-title-wrap">
+      <img src="assets/img/qa/title.jpg" alt="よくあるご質問 Q&A" class="qa-title-img">
+    </div>
+
+    <div class="qa-list">
+      <div class="qa-item open">
+        <div class="qa-question">
+          <img src="assets/img/icons/qa-q.jpg" alt="Q" class="qa-q-mark">
+          <p class="qa-question-text">査定だけでも無料ですか？</p>
+          <div class="qa-toggle"><img src="assets/img/icons/qa-open.jpg" class="qa-toggle-open" alt="閉じる"><img src="assets/img/icons/qa-close.jpg" class="qa-toggle-closed" alt="開く"></div>
+        </div>
+        <div class="qa-answer">
+          <div class="qa-answer-inner">
+            <img src="assets/img/icons/qa-a.jpg" alt="A" class="qa-a-mark">
+            <p>はい、査定は完全無料です。査定後に「やっぱり売らない」となっても、キャンセル料は一切かかりません。お気軽にお持ちください。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <div class="qa-question">
+          <img src="assets/img/icons/qa-q.jpg" alt="Q" class="qa-q-mark">
+          <p class="qa-question-text">本当に何でも買い取ってくれるの？</p>
+          <div class="qa-toggle"><img src="assets/img/icons/qa-open.jpg" class="qa-toggle-open" alt="閉じる"><img src="assets/img/icons/qa-close.jpg" class="qa-toggle-closed" alt="開く"></div>
+        </div>
+        <div class="qa-answer">
+          <div class="qa-answer-inner">
+            <img src="assets/img/icons/qa-a.jpg" alt="A" class="qa-a-mark">
+            <p>エコリングではブランド品から日用品まで幅広く買取しておりますが、一部法令上でお取り扱いできないものもございます。まずはお気軽にご相談ください。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <div class="qa-question">
+          <img src="assets/img/icons/qa-q.jpg" alt="Q" class="qa-q-mark">
+          <p class="qa-question-text">「ありがとう還元」って何ですか？</p>
+          <div class="qa-toggle"><img src="assets/img/icons/qa-open.jpg" class="qa-toggle-open" alt="閉じる"><img src="assets/img/icons/qa-close.jpg" class="qa-toggle-closed" alt="開く"></div>
+        </div>
+        <div class="qa-answer">
+          <div class="qa-answer-inner">
+            <img src="assets/img/icons/qa-a.jpg" alt="A" class="qa-a-mark">
+            <p>エコリングが商品を高く売ることができた場合に、その利益の一部をお客様に還元する制度です。査定金額に上乗せしてお支払いする場合があります。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <div class="qa-question">
+          <img src="assets/img/icons/qa-q.jpg" alt="Q" class="qa-q-mark">
+          <p class="qa-question-text">予約は必要ですか？</p>
+          <div class="qa-toggle"><img src="assets/img/icons/qa-open.jpg" class="qa-toggle-open" alt="閉じる"><img src="assets/img/icons/qa-close.jpg" class="qa-toggle-closed" alt="開く"></div>
+        </div>
+        <div class="qa-answer">
+          <div class="qa-answer-inner">
+            <img src="assets/img/icons/qa-a.jpg" alt="A" class="qa-a-mark">
+            <p>店頭での買取は予約不要でご来店いただけます。ただし、予約いただいたお客様を優先でご案内しておりますので、お時間が気になる方はご予約をおすすめします。</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="qa-item">
+        <div class="qa-question">
+          <img src="assets/img/icons/qa-q.jpg" alt="Q" class="qa-q-mark">
+          <p class="qa-question-text">本人確認書類は必要ですか？</p>
+          <div class="qa-toggle"><img src="assets/img/icons/qa-open.jpg" class="qa-toggle-open" alt="閉じる"><img src="assets/img/icons/qa-close.jpg" class="qa-toggle-closed" alt="開く"></div>
+        </div>
+        <div class="qa-answer">
+          <div class="qa-answer-inner">
+            <img src="assets/img/icons/qa-a.jpg" alt="A" class="qa-a-mark">
+            <p>はい、古物営業法に基づき、買取の際にはお客様の本人確認書類（運転免許証・マイナンバーカードなど）のご提示をお願いしております。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================================================================
+     FOOTER CTA — bottomImage.png（フル幅バナー）
+================================================================ -->
+<div class="footer-cta-banner">
+  <img src="assets/img/hero/bottom.png" alt="エコリング鹿児島店 OPEN！ご自宅の不用品まとめてスッキリ買取！オープン記念キャンペーン 買取金額20%UP！">
+</div>
+<div class="hero-cta">
+  <div class="hero-cta-inner footer-cta-inner">
+    <a href="#store" class="hero-cta-btn btn-reserve">
+      <div class="btn-icon"><img src="assets/img/icons/reserve.png" alt=""></div>
+      <div class="btn-texts">
+        <span class="btn-main">まずは無料査定！来店予約はこちら</span>
+        <span class="btn-sub">予約なしでも歓迎！査定・キャンセル料無料</span>
+      </div>
+    </a>
+    <a href="#" class="hero-cta-btn btn-line">
+      <div class="btn-icon"><img src="assets/img/icons/line.png" alt=""></div>
+      <div class="btn-texts">
+        <span class="btn-main">LINEでの無料査定はこちら</span>
+        <span class="btn-sub">トーク画面から気軽にご相談ください</span>
+      </div>
+    </a>
+    <a href="tel:0120611511" class="hero-cta-btn btn-tel">
+      <div class="btn-icon"><img src="assets/img/icons/tel.png" alt=""></div>
+      <div class="btn-texts">
+        <span class="btn-tel-num"><span class="btn-tel-label">電話</span> 0120-611-511</span>
+        <span class="btn-tel-hours">受付時間 11:00〜18:00（火曜定休）</span>
+      </div>
+    </a>
+  </div>
+</div>
+
+<!-- ================================================================
+     FOOTER
+================================================================ -->
+<div class="footer-index1">
+  <img src="assets/img/hero/categories.jpg" alt="">
+</div>
+<footer id="footer">
+  <div class="footer-links-row">
+    <a href="#">プライバシーポリシー</a>
+    <span class="footer-sep">｜</span>
+    <a href="#">特定商取引法に基づく表記</a>
+  </div>
+  <p class="footer-copy">© 2025 Eco Ring Co., Ltd. All Rights Reserved.</p>
+</footer>
+
+<!-- ================================================================
+     BOTTOM STICKY NAV（スマホ固定）
+================================================================ -->
+<nav class="bottom-nav">
+  <ul>
+    <li>
+      <a href="https://www.eco-ring.com/trip/">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.92 6.01C18.72 5.42 18.16 5 17.5 5h-11c-.66 0-1.21.42-1.42 1.01L3 12v8c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-1h12v1c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-8l-2.08-5.99zM6.5 16c-.83 0-1.5-.67-1.5-1.5S5.67 13 6.5 13s1.5.67 1.5 1.5S7.33 16 6.5 16zm11 0c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM5 11l1.5-4.5h11L19 11H5z"/></svg>
+        出張買取
+      </a>
+    </li>
+    <li>
+      <a href="https://www.eco-ring.com/online/">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        宅配買取
+      </a>
+    </li>
+    <li class="nav-line-btn">
+      <a href="https://www.eco-ring.com/line-satei">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.365 9.863c.349 0 .63.285.63.63 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.105.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.281.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.070 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg>
+        LINE査定
+      </a>
+    </li>
+    <li class="nav-yoyaku">
+      <a href="#store">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        店舗検索 | 予約
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
